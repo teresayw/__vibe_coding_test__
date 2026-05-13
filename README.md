@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 霓虹貪食蛇
 
-# Run and deploy your AI Studio app
+一個使用 React、TypeScript 與 Canvas 建構的 霓虹風格貪食蛇遊戲。
 
-This contains everything you need to run your app locally.
+## 本地啟動
 
-View your app in AI Studio: https://ai.studio/apps/c04818cc-87e8-4257-adde-c1abb069d3de
+**前置需求:** Node.js
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
+1. 安裝相依套件
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. 啟動開發伺服器
    `npm run dev`
+
+開啟瀏覽器並前往 `http://localhost:3000`。
+
+## GitHub Pages 部署
+
+此專案已設定 GitHub Actions 自動部署到 GitHub Pages。當 `main` 分支有新的 push 時，工作流程會自動建置並部署 `dist` 資料夾。
+
+部署網址：`https://teresayw.github.io/__VIBE_CODING_TEST__/`

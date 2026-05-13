@@ -1,6 +1,0 @@
-{
-  "name": "霓虹貪食蛇",
-  "description": "這是一款使用 React、Canvas 和 TypeScript 建構的高性能、復古風格霓虹貪食蛇遊戲。具備酷炫的霓虹美學、流暢的控制以及高分紀錄功能。",
-  "requestFramePermissions": [],
-  "majorCapabilities": []
-}
