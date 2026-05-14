@@ -18,3 +18,5 @@
 此專案已設定 GitHub Actions 自動部署到 GitHub Pages。當 `main` 分支有新的 push 時，工作流程會自動建置並部署 `dist` 資料夾。
 
 部署網址：`https://teresayw.github.io/__VIBE_CODING_TEST__/`
+
+> Vite 的 `base` 已設定為 `/__VIBE_CODING_TEST__/`，確保資源路徑在 GitHub Pages 上正確載入。
